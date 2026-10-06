@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zechariah — Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="loader-title">ZECHARIAH</h1>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-subtitle">Loading Creative Experience...</p>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <a href="#" class="logo">ZECH<span>.</span></a>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-content">
+            <span class="badge">Creative Developer & Designer</span>
+            <h1 class="hero-title">Crafting <em>Digital</em> Masterpieces.</h1>
+            <p class="hero-desc">Hi, I'm Zechariah. I blend artistic vision with cutting-edge technology to build immersive web experiences.</p>
+            <div class="hero-buttons">
+                <a href="#work" class="btn primary-btn">Explore Work</a>
+                <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card c1">Design</div>
+            <div class="floating-card c2">Code</div>
+            <div class="floating-card c3">Art</div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <div class="photo-placeholder">
+                    <img src="santander wilson.png" alt="A Portrait of me">
+                </div>
+                <div class="image-frame-decor"></div>
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="about-lead">Hello! I am Zechariah Wilson B. Santander, a creator driven by a deep curiosity for design, interaction, and aesthetics.</p>
+                <p class="about-body">
+                    My approach sits at the intersection of logic and imagination. Whether I'm designing intuitive user interfaces, writing clean semantic code, or experimenting with creative visual layouts, my goal is always to evoke emotion and deliver seamless digital journeys.
+                </p>
+                <div class="skills-tags">
+                    <span>UI/UX Design</span>
+                    <span>Frontend Architecture</span>
+                    <span>Creative Coding</span>
+                    <span>Brand Identity</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <h2 class="section-title">Let's Create Together</h2>
+            <p class="contact-desc">Have a project in mind or just want to say hi? My inbox is always open.</p>
+            <a href="mailto:santanderwilson036@gmail.com" class="btn primary-btn email-btn">santanderwilson036@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Zechariah. Designed & Built with passion.</p>
+    </footer>
+
+    <!-- Simple Script for Loader Fade-out -->
+    <script>
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 600);
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
